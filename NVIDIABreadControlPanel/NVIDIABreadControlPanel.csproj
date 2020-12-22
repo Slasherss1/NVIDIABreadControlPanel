@@ -58,6 +58,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DiscordGameSDK\ActivityManager.cs" />
+    <Compile Include="DiscordGameSDK\Constants.cs" />
+    <Compile Include="DiscordGameSDK\Core.cs" />
+    <Compile Include="DiscordGameSDK\ImageManager.cs" />
+    <Compile Include="DiscordGameSDK\LobbyManager.cs" />
+    <Compile Include="DiscordGameSDK\StorageManager.cs" />
+    <Compile Include="DiscordGameSDK\StoreManager.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
