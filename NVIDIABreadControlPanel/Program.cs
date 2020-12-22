@@ -23,7 +23,7 @@ namespace NVIDIABreadControlPanel
             }
             catch (IndexOutOfRangeException)
             {
-                Console.WriteLine("No argument found. Using default.");
+                Console.WriteLine("No argument found.");
                 arg = "default";
             }
             arg = (arg == "led") ? "default" : arg;
@@ -50,6 +50,7 @@ namespace NVIDIABreadControlPanel
                     st = "Spawning melon.";
                     break;
                 default:
+                    Console.WriteLine("Using default argument.");
                     dt = "In settings";
                     st = "Changing LED settings.";
                     break;
